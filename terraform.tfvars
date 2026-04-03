@@ -1,0 +1,5 @@
+project_id = "whannah-gcp-75"
+region = "us-central1"
+zone = "us-central1-a"
+student_name = "william"
+vm_name = "traveler-node-lab2"
