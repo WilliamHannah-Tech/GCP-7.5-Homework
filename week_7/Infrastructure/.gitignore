@@ -2,11 +2,13 @@
 # Terraform & OpenTofu
 # Local .terraform folder (provider binaries, modules)
 **/.terraform/*
+.terraform.lock.hcl
+
 
 # .tfstate files (Contains secrets and infrastructure mapping)
 *.tfstate
 *.tfstate.*
-
+*.terraform.tfstate
 # Crash logs
 crash.log
 crash.*.log
